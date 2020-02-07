@@ -1,4 +1,4 @@
-# gocp [![Doc](http://img.shields.io/badge/go-doc-blue.svg)](https://godoc.org/github.com/longzhiri/gocp) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/longzhiri/gocp/blob/master/LICENSE)
+# gocp [![Doc](https://img.shields.io/badge/go-doc-blue.svg)](https://godoc.org/github.com/longzhiri/gocp) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/longzhiri/gocp/blob/master/LICENSE)
 A connection pool implementation  in **Go**
 
 # Install

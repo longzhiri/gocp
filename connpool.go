@@ -1,4 +1,4 @@
-// Package connpool provide a configurable connection pool, and can be accessed by multiple goroutines simultaneously.
+// Package gocp provide a configurable connection pool, and can be accessed by multiple goroutines simultaneously.
 package gocp
 
 import (
