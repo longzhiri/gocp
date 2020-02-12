@@ -11,6 +11,19 @@ A connection pool implementation  in **Go**
 go get -u github.com/longzhiri/gocp
 ```
 
+# Introduce
+The connection pool refers to [go-database-sql](https://golang.org/pkg/database/sql/) and has three configuration items:
+    
+    The maxOpenNum is maximum number of open connections by pool, if <=0, then there is no limit 
+    for open connections.
+    
+    The maxIdleNum is maximum number of idle connections in pool, if <=0, no idle connections are retained. 
+    If maxOpenNum is not 0 and maxIdleNum is greater than maxOpenNum, then maxIdleNum will be reduced to 
+    match maxOpenNum limit.
+    
+    The maxLifeTime is maximum amount of time a connection may be reused, if <=0, connections are reused forever. 
+    Expired connection will be lazily closed when try reusing. 
+
 # Usage
 See [godoc](https://godoc.org/github.com/longzhiri/gocp) in details.
 ```go
